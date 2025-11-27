@@ -40,19 +40,44 @@ export default function About() {
         </div>
       </section>
 
-      <section class="mb-10 grid grid-cols-1 md:grid-cols-2 gap-8">
+      <section class="mb-10 grid grid-cols-1 md:grid-cols-4 gap-8">
         <div class="flex flex-col justify-center items-center bg-gray-50 rounded-xl p-6 shadow">
           <h2 class="text-2xl font-bold text-blue-700 mb-4">Meet the Team</h2>
-          <div class="grid grid-cols-2 gap-4">
+          <div class="grid grid-cols-2 md:grid-cols-4 gap-4">
             <div class="flex flex-col items-center">
               <img src="https://randomuser.me/api/portraits/men/32.jpg" alt="Founder" class="w-16 h-16 rounded-full mb-2 shadow-lg object-cover">
-              <span class="font-semibold text-gray-800">Alex Kim</span>
+              <span class="font-semibold text-gray-800">SUY Panhaseth</span>
               <span class="text-gray-500 text-sm">Co-Founder, Educator</span>
             </div>
             <div class="flex flex-col items-center">
               <img src="https://randomuser.me/api/portraits/women/44.jpg" alt="Tech Lead" class="w-16 h-16 rounded-full mb-2 shadow-lg object-cover">
-              <span class="font-semibold text-gray-800">Priya Patel</span>
+              <span class="font-semibold text-gray-800">LAI Taiseng</span>
               <span class="text-gray-500 text-sm">Lead Developer</span>
+            </div>
+            <div class="flex flex-col items-center">
+              <img src="https://randomuser.me/api/portraits/women/44.jpg" alt="Tech Lead" class="w-16 h-16 rounded-full mb-2 shadow-lg object-cover">
+              <span class="font-semibold text-gray-800">CHAMROEUN Vireakpanha</span>
+              <span class="text-gray-500 text-sm">Co-lead Developer</span>
+            </div>
+            <div class="flex flex-col items-center">
+              <img src="https://randomuser.me/api/portraits/women/44.jpg" alt="Tech Lead" class="w-16 h-16 rounded-full mb-2 shadow-lg object-cover">
+              <span class="font-semibold text-gray-800">LOEUNG Chhumsomary</span>
+              <span class="text-gray-500 text-sm">Co-lead Developer</span>
+            </div>
+            <div class="flex flex-col items-center">
+              <img src="https://randomuser.me/api/portraits/women/44.jpg" alt="Tech Lead" class="w-16 h-16 rounded-full mb-2 shadow-lg object-cover">
+              <span class="font-semibold text-gray-800">PRAK Kimhorng</span>
+              <span class="text-gray-500 text-sm">UX-UI Designer</span>
+            </div>
+            <div class="flex flex-col items-center">
+              <img src="https://randomuser.me/api/portraits/women/44.jpg" alt="Tech Lead" class="w-16 h-16 rounded-full mb-2 shadow-lg object-cover">
+              <span class="font-semibold text-gray-800">PANG Narithtithya</span>
+              <span class="text-gray-500 text-sm">Database & Authentication Specialist</span>
+            </div>
+            <div class="flex flex-col items-center">
+              <img src="https://randomuser.me/api/portraits/women/44.jpg" alt="Tech Lead" class="w-16 h-16 rounded-full mb-2 shadow-lg object-cover">
+              <span class="font-semibold text-gray-800">PAN Chansonaza</span>
+              <span class="text-gray-500 text-sm">Community Manager</span>
             </div>
           </div>
         </div>
@@ -61,35 +86,6 @@ export default function About() {
           <p class="text-gray-800 text-lg">
             To create a connected, inclusive, and innovative academic ecosystem where every member can thrive and contribute.
           </p>
-        </div>
-      </section>
-
-      <section class="mb-10 grid grid-cols-1 md:grid-cols-2 gap-8">
-        <div class="flex flex-col justify-center bg-green-100 rounded-xl p-6 shadow">
-          <h2 class="text-2xl font-bold text-green-700 mb-4">Student Success Stories</h2>
-          <div class="space-y-4">
-            <div class="bg-white rounded-lg p-4 shadow">
-              <p class="text-gray-800 italic">"UniSite helped me connect with study groups and find resources I never knew existed!"</p>
-              <span class="block text-right text-gray-500 mt-2">— Jamie, Biology Major</span>
-            </div>
-            <div class="bg-white rounded-lg p-4 shadow">
-              <p class="text-gray-800 italic">"The dashboard keeps me organized and up-to-date with campus events."</p>
-              <span class="block text-right text-gray-500 mt-2">— Marcus, Computer Science</span>
-            </div>
-          </div>
-        </div>
-        <div class="flex flex-col justify-center bg-yellow-100 rounded-xl p-6 shadow">
-          <h2 class="text-2xl font-bold text-yellow-700 mb-4">Faculty Testimonials</h2>
-          <div class="space-y-4">
-            <div class="bg-white rounded-lg p-4 shadow">
-              <p class="text-gray-800 italic">"UniSite streamlines communication with my students and makes sharing materials effortless."</p>
-              <span class="block text-right text-gray-500 mt-2">— Dr. Lee, Mathematics</span>
-            </div>
-            <div class="bg-white rounded-lg p-4 shadow">
-              <p class="text-gray-800 italic">"I appreciate the privacy controls and collaborative tools for research projects."</p>
-              <span class="block text-right text-gray-500 mt-2">— Prof. Nguyen, History</span>
-            </div>
-          </div>
         </div>
       </section>
 
