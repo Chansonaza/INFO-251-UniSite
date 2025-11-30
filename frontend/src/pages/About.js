@@ -76,7 +76,7 @@ export default function About() {
               <span class="text-gray-500 text-sm">Database & Authentication Specialist</span>
             </div>
             <div class="flex flex-col items-center">
-              <img src="https://i.pinimg.com/736x/b0/e9/77/b0e977a8060ef48808d434f3b45c2a2b.jpg" alt="Tech Lead" class="w-16 h-16 rounded-full mb-2 shadow-lg object-cover">
+              <img src="https://i.pinimg.com/736x/79/66/07/7966076c361289d09e6cf55d5540bd05.jpg" alt="Tech Lead" class="w-16 h-16 rounded-full mb-2 shadow-lg object-cover">
               <span class="font-semibold text-gray-800">PAN Chansonaza</span>
               <span class="text-gray-500 text-sm">Community Manager</span>
             </div>
