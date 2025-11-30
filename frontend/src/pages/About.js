@@ -40,42 +40,43 @@ export default function About() {
         </div>
       </section>
 
-      <section class="mb-10 grid grid-cols-1 md:grid-cols-4 gap-8">
-        <div class="flex flex-col justify-center items-center bg-gray-50 rounded-xl p-6 shadow">
-          <h2 class="text-2xl font-bold text-blue-700 mb-4">Meet the Team</h2>
+      <section class="mb-10 flex flex-col lg:flex-row gap-8">
+        <div class="flex-1 bg-gray-50 rounded-xl p-6 shadow">
+          <h2 class="text-2xl font-bold text-blue-700 mb-4 text-center">Meet the Team</h2>
+          
           <div class="grid grid-cols-2 md:grid-cols-4 gap-4">
             <div class="flex flex-col items-center">
-              <img src="https://randomuser.me/api/portraits/men/32.jpg" alt="Founder" class="w-16 h-16 rounded-full mb-2 shadow-lg object-cover">
+              <img src="https://i.pinimg.com/1200x/9e/5b/6a/9e5b6ae840634960002ceddf960edec0.jpg" alt="Founder" class="w-16 h-16 rounded-full mb-2 shadow-lg object-cover">
               <span class="font-semibold text-gray-800">SUY Panhaseth</span>
               <span class="text-gray-500 text-sm">Co-Founder, Educator</span>
             </div>
             <div class="flex flex-col items-center">
-              <img src="https://randomuser.me/api/portraits/women/44.jpg" alt="Tech Lead" class="w-16 h-16 rounded-full mb-2 shadow-lg object-cover">
+              <img src="https://i.pinimg.com/736x/2d/1f/14/2d1f140d122c74e6b80c96788909b6c8.jpg" alt="Tech Lead" class="w-16 h-16 rounded-full mb-2 shadow-lg object-cover">
               <span class="font-semibold text-gray-800">LAI Taiseng</span>
               <span class="text-gray-500 text-sm">Lead Developer</span>
             </div>
             <div class="flex flex-col items-center">
-              <img src="https://randomuser.me/api/portraits/women/44.jpg" alt="Tech Lead" class="w-16 h-16 rounded-full mb-2 shadow-lg object-cover">
+              <img src="https://i.pinimg.com/736x/22/69/4b/22694b24eb5234ebc001fb9c8d03845a.jpg" alt="Tech Lead" class="w-16 h-16 rounded-full mb-2 shadow-lg object-cover">
               <span class="font-semibold text-gray-800">CHAMROEUN Vireakpanha</span>
               <span class="text-gray-500 text-sm">Co-lead Developer</span>
             </div>
             <div class="flex flex-col items-center">
-              <img src="https://randomuser.me/api/portraits/women/44.jpg" alt="Tech Lead" class="w-16 h-16 rounded-full mb-2 shadow-lg object-cover">
+              <img src="https://i.pinimg.com/1200x/ba/6e/d0/ba6ed0f55d8572faa86b1a0786e5abc2.jpg" alt="Tech Lead" class="w-16 h-16 rounded-full mb-2 shadow-lg object-cover">
               <span class="font-semibold text-gray-800">LOEUNG Chhumsomary</span>
               <span class="text-gray-500 text-sm">Co-lead Developer</span>
             </div>
             <div class="flex flex-col items-center">
-              <img src="https://randomuser.me/api/portraits/women/44.jpg" alt="Tech Lead" class="w-16 h-16 rounded-full mb-2 shadow-lg object-cover">
+              <img src="https://i.pinimg.com/736x/78/e6/95/78e69511db258c2dc03d5d0b5d65446a.jpg" alt="Tech Lead" class="w-16 h-16 rounded-full mb-2 shadow-lg object-cover">
               <span class="font-semibold text-gray-800">PRAK Kimhorng</span>
               <span class="text-gray-500 text-sm">UX-UI Designer</span>
             </div>
             <div class="flex flex-col items-center">
-              <img src="https://randomuser.me/api/portraits/women/44.jpg" alt="Tech Lead" class="w-16 h-16 rounded-full mb-2 shadow-lg object-cover">
+              <img src="https://i.pinimg.com/736x/d3/8a/67/d38a670582700d8fce3da09963bc62a5.jpg" alt="Tech Lead" class="w-16 h-16 rounded-full mb-2 shadow-lg object-cover">
               <span class="font-semibold text-gray-800">PANG Narithtithya</span>
               <span class="text-gray-500 text-sm">Database & Authentication Specialist</span>
             </div>
             <div class="flex flex-col items-center">
-              <img src="https://randomuser.me/api/portraits/women/44.jpg" alt="Tech Lead" class="w-16 h-16 rounded-full mb-2 shadow-lg object-cover">
+              <img src="https://i.pinimg.com/736x/b0/e9/77/b0e977a8060ef48808d434f3b45c2a2b.jpg" alt="Tech Lead" class="w-16 h-16 rounded-full mb-2 shadow-lg object-cover">
               <span class="font-semibold text-gray-800">PAN Chansonaza</span>
               <span class="text-gray-500 text-sm">Community Manager</span>
             </div>
@@ -89,26 +90,49 @@ export default function About() {
         </div>
       </section>
 
-      <section class="flex flex-col md:flex-row items-center justify-between bg-gray-100 rounded-xl p-8 shadow mb-8">
-        <div class="w-full md:w-2/3 md:pr-8">
-          <h2 class="text-2xl font-bold text-blue-700 mb-4">Contact Us</h2>
-          <p class="text-gray-700 text-lg mb-4">
+      <section class="flex justify-center items-center bg-gray-100 rounded-xl p-8 shadow mb-8">
+        <div class="w-full max-w-lg">
+          <h2 class="text-2xl font-bold text-blue-700 mb-4 text-center">Contact Us</h2>
+          <p class="text-gray-700 text-lg mb-4 text-center">
             Have a question, suggestion, or need support? Use the form below and our team will get back to you soon.
           </p>
-          <form class="flex flex-col gap-4 max-w-lg" id="contact-form">
-            <div class="flex gap-4">
-              <input type="text" name="name" placeholder="Your Name" class="border rounded px-4 py-2 w-1/2" required>
-              <input type="email" name="email" placeholder="Your Email" class="border rounded px-4 py-2 w-1/2" required>
+          <form class="flex flex-col gap-4" id="contact-form">
+            <div class="flex flex-col sm:flex-row gap-4">
+              <input
+                type="text"
+                name="name"
+                placeholder="Your Name"
+                class="border rounded px-4 py-2 w-full sm:w-1/2"
+                required
+              >
+              <input
+                type="email"
+                name="email"
+                placeholder="Your Email"
+                class="border rounded px-4 py-2 w-full sm:w-1/2"
+                required
+              >
             </div>
-            <textarea name="message" rows="4" placeholder="Your Message" class="border rounded px-4 py-2" required></textarea>
-            <button type="submit" class="bg-blue-600 text-white font-semibold px-6 py-2 rounded hover:bg-blue-700 transition">Send Message</button>
-            <span id="contact-success" class="text-green-600 font-semibold hidden">Thank you! We'll be in touch soon.</span>
+            <textarea
+              name="message"
+              rows="4"
+              placeholder="Your Message"
+              class="border rounded px-4 py-2"
+              required
+            ></textarea>
+            <button
+              type="submit"
+              class="bg-blue-600 text-white font-semibold px-6 py-2 rounded hover:bg-blue-700 transition"
+            >
+              Send Message
+            </button>
+            <span id="contact-success" class="text-green-600 font-semibold hidden">
+              Thank you! We'll be in touch soon.
+            </span>
           </form>
         </div>
-        <div class="hidden md:block md:w-1/3 pl-8">
-          <img src="https://images.unsplash.com/photo-1515378791036-0648a3ef77b2?auto=format&fit=crop&w=400&q=80" alt="Contact illustration" class="rounded-xl shadow-lg object-cover w-full h-64">
-        </div>
       </section>
+
     </div>
   `;
 
